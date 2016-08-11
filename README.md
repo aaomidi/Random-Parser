@@ -7,6 +7,7 @@ This project doesn't use regex, and is just for the fun of it.
 
 EBNF of program:
 
+```
 expr -> term { + term }
 
 term -> factor { * factor }
@@ -18,3 +19,4 @@ decimal-number -> number [ . number ]
 number -> digit { digit }
 
 digit -> 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9
+```
