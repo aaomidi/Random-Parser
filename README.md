@@ -1,3 +1,6 @@
+Random Parser
+====
+
 This is a very simple parse that works by reading a character at a time.
 
 This project doesn't use regex, and is just for the fun of it.
